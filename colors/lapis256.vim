@@ -6,33 +6,35 @@ if exists("syntax_on")
   endif
 let g:colors_name="lapis256"
 
-hi Normal          ctermfg=251      ctermbg=236         cterm=none
+hi Normal          ctermfg=251      ctermbg=237         cterm=none
 
 hi Comment         ctermfg=245      ctermbg=none        cterm=none
+hi Conceal         ctermfg=230      ctermbg=237        cterm=none
+hi CommentURL      ctermfg=230      ctermbg=237        cterm=underline
 hi SpecialComment  ctermfg=246      ctermbg=none        cterm=none
 
-hi Constant        ctermfg=051      ctermbg=none        cterm=none
+hi Constant        ctermfg=051      ctermbg=none        cterm=bold
 hi String          ctermfg=146      ctermbg=none        cterm=none
 hi Character       ctermfg=045      ctermbg=none        cterm=none
 hi Number          ctermfg=216      ctermbg=none        cterm=none
 hi Boolean         ctermfg=045      ctermbg=none        cterm=none
 hi Float           ctermfg=216      ctermbg=none        cterm=none
 hi Identifier      ctermfg=044      ctermbg=none        cterm=none
-hi Function        ctermfg=081      ctermbg=none        cterm=none
-hi Statement       ctermfg=074      ctermbg=none        cterm=none
-hi Conditional     ctermfg=074      ctermbg=none        cterm=none
-hi Repeat          ctermfg=074      ctermbg=none        cterm=none
-hi Label           ctermfg=074      ctermbg=none        cterm=none
-hi Operator        ctermfg=074      ctermbg=none        cterm=none
-hi Keyword         ctermfg=074      ctermbg=none        cterm=none
-hi Exception       ctermfg=210      ctermbg=none        cterm=none
-hi Type            ctermfg=075      ctermbg=none        cterm=none
-hi StorageClass    ctermfg=075      ctermbg=none        cterm=none
-hi Structure       ctermfg=075      ctermbg=none        cterm=none
-hi Typedef         ctermfg=075      ctermbg=none        cterm=none
+hi Function        ctermfg=081      ctermbg=none        cterm=bold
+hi Statement       ctermfg=074      ctermbg=none        cterm=bold
+hi Conditional     ctermfg=074      ctermbg=none        cterm=bold
+hi Repeat          ctermfg=074      ctermbg=none        cterm=bold
+hi Label           ctermfg=074      ctermbg=none        cterm=bold
+hi Operator        ctermfg=074      ctermbg=none        cterm=bold
+hi Keyword         ctermfg=074      ctermbg=none        cterm=bold
+hi Exception       ctermfg=210      ctermbg=none        cterm=bold
+hi Type            ctermfg=075      ctermbg=none        cterm=bold
+hi StorageClass    ctermfg=075      ctermbg=none        cterm=bold
+hi Structure       ctermfg=075      ctermbg=none        cterm=bold
+hi Typedef         ctermfg=075      ctermbg=none        cterm=bold
 hi PreProc         ctermfg=086      ctermbg=none        cterm=none
-hi Include         ctermfg=086      ctermbg=none        cterm=none
-hi Define          ctermfg=080      ctermbg=none        cterm=none
+hi Include         ctermfg=086      ctermbg=none        cterm=bold
+hi Define          ctermfg=080      ctermbg=none        cterm=bold
 hi Macro           ctermfg=080      ctermbg=none        cterm=none
 hi PreCondit       ctermfg=080      ctermbg=none        cterm=none
 hi Special         ctermfg=255      ctermbg=none        cterm=none

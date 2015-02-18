@@ -29,6 +29,8 @@ hi Operator        ctermfg=074      ctermbg=none        cterm=bold
 hi Keyword         ctermfg=074      ctermbg=none        cterm=bold
 hi Exception       ctermfg=210      ctermbg=none        cterm=bold
 hi Type            ctermfg=075      ctermbg=none        cterm=bold
+hi CustomType      ctermfg=116      ctermbg=none        cterm=bold
+hi CustomIO        ctermfg=211      ctermbg=none        cterm=bold
 hi StorageClass    ctermfg=075      ctermbg=none        cterm=bold
 hi Structure       ctermfg=075      ctermbg=none        cterm=bold
 hi Typedef         ctermfg=075      ctermbg=none        cterm=bold

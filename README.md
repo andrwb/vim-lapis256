@@ -5,6 +5,6 @@ Simple 256 color scheme with lots of blue
 
 
 (C++ function color requires adding a custom "syn match" to .vim/after/syntax/c.vim file, or similar, then mapping to Function: "hi def link cppFuncDef Function")
-<img src=http://i.imgur.com/suYevCi.png>
+
 
 

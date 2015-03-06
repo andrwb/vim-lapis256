@@ -1,10 +1,15 @@
-Simple 256 color scheme with lots of blue
+Lapis256 is a simple medium contrast 256 color scheme, designed to have:
 
-<img src=http://i.imgur.com/DONyvVh.png>
+- moderate contrast between background and text
+
+- soft contrast between many common syntax elements
+
+- lots of blue
+
+
 <img src=http://i.imgur.com/rR1iedo.png>
-
+<img src=http://imgur.com/UcjfOtK.png>
+<img src=http://i.imgur.com/DONyvVh.png>
 
 (C++ function color requires adding a custom "syn match" to .vim/after/syntax/c.vim file, or similar, then mapping to Function: "hi def link cppFuncDef Function")
-
-
 

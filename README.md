@@ -1,4 +1,4 @@
-Lapis256 is a simple medium contrast 256 color scheme, designed to have:
+Lapis256 is a simple 256 colorscheme, designed to have:
 
 - moderate contrast between background and text
 

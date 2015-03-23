@@ -21,16 +21,16 @@ hi Boolean         ctermfg=045      ctermbg=none        cterm=none
 hi Float           ctermfg=043      ctermbg=none        cterm=none
 hi Identifier      ctermfg=044      ctermbg=none        cterm=none
 hi Function        ctermfg=081      ctermbg=none        cterm=bold
-hi Statement       ctermfg=074      ctermbg=none        cterm=bold
-hi Conditional     ctermfg=074      ctermbg=none        cterm=bold
-hi Repeat          ctermfg=074      ctermbg=none        cterm=bold
-hi Label           ctermfg=074      ctermbg=none        cterm=bold
-hi Operator        ctermfg=074      ctermbg=none        cterm=bold
-hi Keyword         ctermfg=074      ctermbg=none        cterm=bold
+hi Statement       ctermfg=074      ctermbg=none        cterm=none
+hi Conditional     ctermfg=074      ctermbg=none        cterm=none
+hi Repeat          ctermfg=074      ctermbg=none        cterm=none
+hi Label           ctermfg=074      ctermbg=none        cterm=none
+hi Operator        ctermfg=074      ctermbg=none        cterm=none
+hi Keyword         ctermfg=074      ctermbg=none        cterm=none
 hi Exception       ctermfg=210      ctermbg=none        cterm=bold
-hi Type            ctermfg=075      ctermbg=none        cterm=bold
-hi CustomType      ctermfg=116      ctermbg=none        cterm=bold
-hi CustomIO        ctermfg=211      ctermbg=none        cterm=bold
+hi Type            ctermfg=075      ctermbg=none        cterm=none
+hi CustomType      ctermfg=116      ctermbg=none        cterm=none
+hi CustomIO        ctermfg=211      ctermbg=none        cterm=none
 hi StorageClass    ctermfg=075      ctermbg=none        cterm=bold
 hi Structure       ctermfg=075      ctermbg=none        cterm=bold
 hi Typedef         ctermfg=075      ctermbg=none        cterm=bold
@@ -44,6 +44,7 @@ hi SpecialChar     ctermfg=255      ctermbg=none        cterm=none
 hi Tag             ctermfg=255      ctermbg=none        cterm=none
 hi Delimiter       ctermfg=249      ctermbg=none        cterm=none
 hi Debug           ctermfg=214      ctermbg=none        cterm=none
+hi Todo            ctermfg=119      ctermbg=none        cterm=none
 
 hi Ignore          ctermfg=none     ctermbg=none        cterm=none
 hi StatusLine      ctermfg=015      ctermbg=000         cterm=none

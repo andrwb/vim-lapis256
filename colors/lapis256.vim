@@ -1,68 +1,79 @@
 set background=dark
 
 highlight clear
-if exists("syntax_on")
+if exists('syntax_on')
     syntax reset
-  endif
-let g:colors_name="lapis256"
+endif
 
-hi Normal          ctermfg=251      ctermbg=237         cterm=none
+let g:colors_name='lapis256'
 
-hi Comment         ctermfg=245      ctermbg=none        cterm=none
-hi Conceal         ctermfg=230      ctermbg=237        cterm=none
-hi CommentURL      ctermfg=230      ctermbg=237        cterm=underline
-hi SpecialComment  ctermfg=246      ctermbg=none        cterm=none
+hi Normal                  guifg=#c6c6c6    ctermfg=251     guibg=#3a3a3a    ctermbg=237     cterm=none
 
-hi Constant        ctermfg=051      ctermbg=none        cterm=bold
-hi String          ctermfg=146      ctermbg=none        cterm=none
-hi Character       ctermfg=045      ctermbg=none        cterm=none
-hi Number          ctermfg=043      ctermbg=none        cterm=none
-hi Boolean         ctermfg=045      ctermbg=none        cterm=none
-hi Float           ctermfg=043      ctermbg=none        cterm=none
-hi Identifier      ctermfg=044      ctermbg=none        cterm=none
-hi Function        ctermfg=081      ctermbg=none        cterm=bold
-hi Statement       ctermfg=074      ctermbg=none        cterm=bold
-hi Conditional     ctermfg=074      ctermbg=none        cterm=bold
-hi Repeat          ctermfg=074      ctermbg=none        cterm=bold
-hi Label           ctermfg=074      ctermbg=none        cterm=bold
-hi Operator        ctermfg=074      ctermbg=none        cterm=bold
-hi Keyword         ctermfg=074      ctermbg=none        cterm=bold
-hi Exception       ctermfg=210      ctermbg=none        cterm=bold
-hi Type            ctermfg=075      ctermbg=none        cterm=none
-hi CustomType      ctermfg=116      ctermbg=none        cterm=none
-hi CustomIO        ctermfg=211      ctermbg=none        cterm=none
-hi StorageClass    ctermfg=075      ctermbg=none        cterm=bold
-hi Structure       ctermfg=075      ctermbg=none        cterm=bold
-hi Typedef         ctermfg=075      ctermbg=none        cterm=bold
-hi PreProc         ctermfg=086      ctermbg=none        cterm=none
-hi Include         ctermfg=086      ctermbg=none        cterm=bold
-hi Define          ctermfg=080      ctermbg=none        cterm=bold
-hi Macro           ctermfg=080      ctermbg=none        cterm=none
-hi PreCondit       ctermfg=080      ctermbg=none        cterm=none
-hi Special         ctermfg=255      ctermbg=none        cterm=none
-hi SpecialChar     ctermfg=255      ctermbg=none        cterm=none
-hi Tag             ctermfg=255      ctermbg=none        cterm=none
-hi Delimiter       ctermfg=249      ctermbg=none        cterm=none
-hi Debug           ctermfg=214      ctermbg=none        cterm=none
-hi Todo            ctermfg=119      ctermbg=none        cterm=none
+hi Comment                 guifg=#8a8a8a    ctermfg=245     guibg=none       ctermbg=none    cterm=none
+hi Conceal                 guifg=#ffffd7    ctermfg=230     guibg=#3a3a3a    ctermbg=237     cterm=none
+hi CommentURL              guifg=#ffffd7    ctermfg=230     guibg=#3a3a3a    ctermbg=237     cterm=underline
+hi SpecialComment          guifg=#949494    ctermfg=246     guibg=none       ctermbg=none    cterm=none
 
-hi Ignore          ctermfg=none     ctermbg=none        cterm=none
-hi StatusLine      ctermfg=015      ctermbg=000         cterm=none
-hi WildMenu        ctermfg=210      ctermbg=015         cterm=none
-hi Cursor          ctermfg=210      ctermbg=000         cterm=none
-hi Error           ctermfg=000      ctermbg=210         cterm=none
+hi Constant                guifg=#00ffff    ctermfg=051     guibg=none       ctermbg=none    cterm=bold
+hi String                  guifg=#afafd7    ctermfg=146     guibg=none       ctermbg=none    cterm=none
+hi Character               guifg=#00d7ff    ctermfg=045     guibg=none       ctermbg=none    cterm=none
+hi Number                  guifg=#00d7af    ctermfg=043     guibg=none       ctermbg=none    cterm=none
+hi Boolean                 guifg=#00d7ff    ctermfg=045     guibg=none       ctermbg=none    cterm=none
+hi Float                   guifg=#00d7af    ctermfg=043     guibg=none       ctermbg=none    cterm=none
+hi Identifier              guifg=#00d7d7    ctermfg=044     guibg=none       ctermbg=none    cterm=none
+hi Function                guifg=#5fd7ff    ctermfg=081     guibg=none       ctermbg=none    cterm=bold
+hi Statement               guifg=#5fafd7    ctermfg=074     guibg=none       ctermbg=none    cterm=bold
+hi Conditional             guifg=#5fafd7    ctermfg=074     guibg=none       ctermbg=none    cterm=bold
+hi Repeat                  guifg=#5fafd7    ctermfg=074     guibg=none       ctermbg=none    cterm=bold
+hi Label                   guifg=#5fafd7    ctermfg=074     guibg=none       ctermbg=none    cterm=bold
+hi Operator                guifg=#5fafd7    ctermfg=074     guibg=none       ctermbg=none    cterm=bold
+hi Keyword                 guifg=#5fafd7    ctermfg=074     guibg=none       ctermbg=none    cterm=bold
+hi Exception               guifg=#ff8787    ctermfg=210     guibg=none       ctermbg=none    cterm=bold
+hi Type                    guifg=#5fafff    ctermfg=075     guibg=none       ctermbg=none    cterm=none
+hi CustomType              guifg=#87d7d7    ctermfg=116     guibg=none       ctermbg=none    cterm=none
+hi CustomIO                guifg=#ff87af    ctermfg=211     guibg=none       ctermbg=none    cterm=none
+hi StorageClass            guifg=#5fafff    ctermfg=075     guibg=none       ctermbg=none    cterm=bold
+hi Structure               guifg=#5fafff    ctermfg=075     guibg=none       ctermbg=none    cterm=bold
+hi Typedef                 guifg=#5fafff    ctermfg=075     guibg=none       ctermbg=none    cterm=bold
+hi PreProc                 guifg=#5fffd7    ctermfg=086     guibg=none       ctermbg=none    cterm=none
+hi Include                 guifg=#5fffd7    ctermfg=086     guibg=none       ctermbg=none    cterm=bold
+hi Define                  guifg=#5fd7d7    ctermfg=080     guibg=none       ctermbg=none    cterm=bold
+hi Macro                   guifg=#5fd7d7    ctermfg=080     guibg=none       ctermbg=none    cterm=none
+hi PreCondit               guifg=#5fd7d7    ctermfg=080     guibg=none       ctermbg=none    cterm=none
+hi Special                 guifg=#eeeeee    ctermfg=255     guibg=none       ctermbg=none    cterm=none
+hi SpecialChar             guifg=#eeeeee    ctermfg=255     guibg=none       ctermbg=none    cterm=none
+hi Tag                     guifg=#eeeeee    ctermfg=255     guibg=none       ctermbg=none    cterm=none
+hi Delimiter               guifg=#b2b2b2    ctermfg=249     guibg=none       ctermbg=none    cterm=none
+hi Debug                   guifg=#ffaf00    ctermfg=214     guibg=none       ctermbg=none    cterm=none
+hi Todo                    guifg=#87ff5f    ctermfg=119     guibg=none       ctermbg=none    cterm=none
 
-hi Pmenu           ctermfg=036      ctermbg=000         cterm=none
-hi PmenuSel        ctermfg=000      ctermbg=075         cterm=none
-hi PmenuSbar       ctermfg=210      ctermbg=000         cterm=none
-hi PmenuThumb      ctermfg=210      ctermbg=000         cterm=none
-hi LineNr          ctermfg=240      ctermbg=none        cterm=none
+hi Ignore                  guifg=none       ctermfg=none    guibg=none       ctermbg=none    cterm=none
+hi StatusLine              guifg=#ffffff    ctermfg=015     guibg=#000000    ctermbg=000     cterm=none
+hi WildMenu                guifg=#ff8787    ctermfg=210     guibg=#ffffff    ctermbg=015     cterm=none
+hi Cursor                  guifg=#ff8787    ctermfg=210     guibg=#000000    ctermbg=000     cterm=none
+hi Error                   guifg=#000000    ctermfg=000     guibg=#ff8787    ctermbg=210     cterm=none
 
-hi Visual          ctermfg=000     ctermbg=197
-hi Search          ctermfg=000     ctermbg=197
+hi Pmenu                   guifg=#00af87    ctermfg=036      guibg=#000000    ctermbg=000    cterm=none
+hi PmenuSel                guifg=#000000    ctermfg=000      guibg=#5fafff    ctermbg=075    cterm=none
+hi PmenuSbar               guifg=#ff8787    ctermfg=210      guibg=#000000    ctermbg=000    cterm=none
+hi PmenuThumb              guifg=#ff8787    ctermfg=210      guibg=#000000    ctermbg=000    cterm=none
+hi LineNr                  guifg=#585858    ctermfg=240      guibg=none       ctermbg=none   cterm=none
 
-hi BookmarkSign             ctermfg=075         ctermbg=none
-hi BookmarkLine             ctermfg=075         ctermbg=none
-hi BookmarkAnnotationSign   ctermfg=075         ctermbg=none
-hi BookmarkAnnotationLine   ctermfg=075         ctermbg=none
-hi SignColumn               ctermfg=210         ctermbg=none
+hi Visual                  guifg=#000000    ctermfg=000      guibg=#ff005f    ctermbg=197
+hi Search                  guifg=#000000    ctermfg=000      guibg=#ff005f    ctermbg=197
+
+hi BookmarkSign            guifg=#5fafff    ctermfg=075      guibg=none       ctermbg=none
+hi BookmarkLine            guifg=#5fafff    ctermfg=075      guibg=none       ctermbg=none
+hi BookmarkAnnotationSign  guifg=#5fafff    ctermfg=075      guibg=none       ctermbg=none
+hi BookmarkAnnotationLine  guifg=#5fafff    ctermfg=075      guibg=none       ctermbg=none
+hi SignColumn              guifg=#ff8787    ctermfg=210      guibg=none       ctermbg=none
+
+
+" PLUGIN SUPPORT
+" --------------
+
+" w0rp/ale
+hi ALEWarningSign          guifg=#ffaf5f    ctermfg=215      guibg=none       ctermbg=none   cterm=none 
+hi ALEWarning              guifg=#ffaf5f    ctermfg=215      guibg=none       ctermbg=none   cterm=undercurl
+hi ALEErrorSign            guifg=#ff0087    ctermfg=198      guibg=none       ctermbg=none   cterm=none
+hi ALEError                guifg=#ff0087    ctermfg=198      guibg=none       ctermbg=none   cterm=undercurl
